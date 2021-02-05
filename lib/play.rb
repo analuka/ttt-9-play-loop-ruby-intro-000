@@ -42,7 +42,9 @@ end
 #   end
 # end
 
+
 def play(board)
+  moves_number = 0
   while moves_number < 10
     turn(board)
   end
