@@ -41,3 +41,8 @@ def play(board)
     turn(board)
   end
 end
+
+def play(board)
+  while moves_number < 10
+    turn(board)
+  end
